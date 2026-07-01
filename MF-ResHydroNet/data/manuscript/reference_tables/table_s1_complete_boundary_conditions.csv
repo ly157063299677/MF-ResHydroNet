@@ -1,0 +1,17 @@
+case_id,case_note,yangtze_q_m3s,dongting_q_m3s,downstream_level_m
+HC-01,Navigation-related case recorded on 2018-05-09,12950,9350,25.69
+HC-02,Navigation-related case recorded on 2018-07-09,30700,5190,29.0651
+HC-03,Navigation-related case recorded on 2020-08-13,29000,16600,30.9112
+HC-04,Navigation-related case recorded on 2022-05-14,18700,15400,28.8175
+HC-05,General simulation boundary condition,7580,2000,19.3161
+HC-06,General simulation boundary condition,7580,4500,20.6206
+HC-07,General simulation boundary condition,7580,12000,23.9507
+HC-08,General simulation boundary condition,12000,4000,22.487
+HC-09,General simulation boundary condition,12000,9000,24.1757
+HC-10,General simulation boundary condition,12000,14000,26.1959
+HC-11,General simulation boundary condition,22000,4000,26.1957
+HC-12,General simulation boundary condition,22000,11500,28.631
+HC-13,General simulation boundary condition,22000,17000,29.6504
+HC-14,General simulation boundary condition,35000,6000,30.083
+HC-15,General simulation boundary condition,35000,10700,31.0335
+HC-16,General simulation boundary condition,35000,18000,32.4149

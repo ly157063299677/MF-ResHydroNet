@@ -1,0 +1,11 @@
+model_component,feature_or_target_group,variables_included,role
+Input feature,Spatial coordinates,Projected planar coordinates x and y,Encodes spatial heterogeneity of the river reach
+Input feature,Hydrological boundary condition,"Yangtze discharge, Dongting discharge, downstream water level",Conditions the network on hydraulic forcing
+Input feature,Mesh and fidelity descriptor,Mesh resolution and fidelity level,Distinguishes source resolution and correction magnitude
+Input feature,Low-fidelity hydrodynamic state,"Water level, velocity magnitude, flow direction",Provides the baseline hydraulic field
+Input feature,Optional derived low-fidelity state,Transverse velocity and TKE-stat if available,Extends residual correction to derived indicators
+Prediction target,High-fidelity water level,20 m water level,Primary supervised output
+Prediction target,High-fidelity velocity magnitude,20 m velocity magnitude,Primary supervised output
+Prediction target,High-fidelity transverse velocity,20 m transverse velocity,Navigation-related extended output
+Prediction target,High-fidelity turbulence-related statistic,20 m TKE-stat,Turbulence-response extended output
+Residual-learning target,Multi-fidelity residual,High-fidelity target minus lower-fidelity baseline,Enables residual correction rather than direct prediction

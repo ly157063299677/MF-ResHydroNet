@@ -1,0 +1,7 @@
+mesh_resolution_m,mesh_cells,estimated_mesh_nodes,samples,recorded_time,runtime_s,cost_percent_of_20m,speed_up_vs_20m,fidelity_definition
+20,593893,296946,101,20 h,72000.0,100.0,1.0,High fidelity / reference mesh
+30,264524,132262,101,5 h 15 min,18900.0,26.25,3.81,Medium fidelity
+40,148461,74230,101,1 h 45 min,6300.0,8.75,11.43,Medium fidelity
+50,95129,47564,101,1 h,3600.0,5.0,20.0,Medium fidelity
+100,23824,11912,101,5 min,300.0,0.42,240.0,Low fidelity
+200,5963,2982,101,55 s,55.0,0.08,1309.09,Low fidelity

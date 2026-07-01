@@ -1,0 +1,21 @@
+lower_fidelity_input,variable,raw_rmse,mf_reshydronet_rmse,error_reduction_percent
+30 m -> 20 m,Water level,0.032,0.018,43.8
+30 m -> 20 m,Velocity magnitude,0.041,0.025,39.0
+30 m -> 20 m,Transverse velocity,0.034,0.021,38.2
+30 m -> 20 m,TKE-stat,0.017,0.01,41.2
+40 m -> 20 m,Water level,0.037,0.022,40.5
+40 m -> 20 m,Velocity magnitude,0.046,0.028,39.1
+40 m -> 20 m,Transverse velocity,0.039,0.023,41.0
+40 m -> 20 m,TKE-stat,0.018,0.011,38.9
+50 m -> 20 m,Water level,0.044,0.025,43.2
+50 m -> 20 m,Velocity magnitude,0.051,0.031,39.2
+50 m -> 20 m,Transverse velocity,0.043,0.026,39.5
+50 m -> 20 m,TKE-stat,0.02,0.012,40.0
+100 m -> 20 m,Water level,0.061,0.035,42.6
+100 m -> 20 m,Velocity magnitude,0.067,0.041,38.8
+100 m -> 20 m,Transverse velocity,0.052,0.032,38.5
+100 m -> 20 m,TKE-stat,0.021,0.015,28.6
+200 m -> 20 m,Water level,0.079,0.052,34.2
+200 m -> 20 m,Velocity magnitude,0.086,0.057,33.7
+200 m -> 20 m,Transverse velocity,0.066,0.043,34.8
+200 m -> 20 m,TKE-stat,0.027,0.021,22.2

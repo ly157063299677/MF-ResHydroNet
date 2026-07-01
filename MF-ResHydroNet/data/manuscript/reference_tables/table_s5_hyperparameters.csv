@@ -1,0 +1,8 @@
+model,main_hyperparameters,training_settings
+Linear regression,Default least-squares solver; intercept=True,Standardized continuous inputs
+Random forest,n_estimators=500; max_depth=20; max_features=sqrt; bootstrap=True,Random seed=42
+XGBoost,n_estimators=600; max_depth=5; learning_rate=0.03; subsample=0.85; colsample_bytree=0.85; reg_lambda=1.0,Early stopping rounds=50; random seed=42
+LightGBM,n_estimators=800; num_leaves=31; max_depth=8; learning_rate=0.03; lambda_l2=1.0,Early stopping rounds=50; random seed=42
+Standard MLP,Hidden layers=128-128-64; ReLU; dropout=0.10,AdamW; lr=1e-3; weight_decay=1e-4; batch_size=64; epochs=500; patience=50
+Direct multi-fidelity MLP,Hidden layers=256-128-64; ReLU; dropout=0.10,AdamW; lr=1e-3; weight_decay=1e-4; batch_size=64; epochs=500; patience=50
+MF-ResHydroNet,"64-d spatial-hydrological, mesh-fidelity, and lower-fidelity embeddings; fidelity-aware AttenRes fusion; residual decoder",AdamW; lr=1e-3; weight_decay=1e-4; batch_size=64; epochs=500; patience=50

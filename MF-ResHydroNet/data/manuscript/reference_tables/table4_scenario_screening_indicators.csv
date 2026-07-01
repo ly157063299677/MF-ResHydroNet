@@ -1,0 +1,5 @@
+case_id,mesh_used,yangtze_q_m3s,dongting_q_m3s,downstream_level_m,high_velocity,transverse_flow,priority
+HC-08,100 m,12000,4000,22.487,Medium,Medium,Medium
+HC-12,100 m,22000,11500,28.631,High,High,High
+HC-14,200 m,35000,6000,30.083,High,Medium,High
+HC-16,200 m,35000,18000,32.415,Very High,High,Very High

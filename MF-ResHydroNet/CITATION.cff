@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the accompanying manuscript."
+title: "MF-ResHydroNet: Mesh-Resolution-Conditioned Multi-Fidelity Residual Learning for River Hydrodynamic Reconstruction"
+version: "0.1.0"
+date-released: "2026-07-01"
+authors:
+  - family-names: Li
+    given-names: Youwei
+  - family-names: Li
+    given-names: Jie
+  - family-names: Liu
+    given-names: Xiaochen
+  - family-names: Wang
+    given-names: Jiang
+  - family-names: Wang
+    given-names: Bing

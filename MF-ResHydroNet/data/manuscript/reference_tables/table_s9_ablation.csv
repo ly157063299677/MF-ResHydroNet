@@ -1,0 +1,7 @@
+model_variant,wl_rmse,velocity_rmse,transverse_velocity_rmse,tke_stat_rmse,mean_r2,avg_rmse_increase
+Full MF-ResHydroNet,0.028,0.034,0.027,0.012,0.976,0.0%
+w/o spatial-hydrological embedding,0.041,0.047,0.039,0.017,0.958,+42.6%
+w/o mesh-fidelity embedding,0.035,0.042,0.033,0.015,0.968,+23.8%
+w/o fidelity-aware AttenRes fusion,0.033,0.039,0.031,0.014,0.972,+15.8%
+w/o residual-correction branch,0.037,0.045,0.036,0.016,0.965,+32.7%
+w/o lower-fidelity hydrodynamic input,0.062,0.073,0.058,0.028,0.902,+118.8%

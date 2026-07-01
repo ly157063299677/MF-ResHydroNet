@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mf-reshydronet"
+version = "0.1.0"
+description = "Mesh-resolution-conditioned multi-fidelity residual learning for river hydrodynamic reconstruction."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name = "Youwei Li" },
+  { name = "Jie Li" },
+  { name = "Xiaochen Liu" },
+  { name = "Jiang Wang" },
+  { name = "Bing Wang" }
+]
+dependencies = ["numpy>=1.23", "pandas>=1.5"]
+
+[project.optional-dependencies]
+train = ["torch", "scikit-learn", "xgboost", "lightgbm", "matplotlib"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

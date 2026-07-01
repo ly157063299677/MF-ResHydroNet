@@ -1,0 +1,5 @@
+prediction_strategy,numerical_simulation_used,simulation_time_s,model_inference_time_s,total_time_s,speed_up_vs_20m
+Full high-fidelity simulation,20 m,72000.0,,72000.0,1.0
+50 m simulation + MF-ResHydroNet,50 m,3600.0,1.8,3601.8,19.99
+100 m simulation + MF-ResHydroNet,100 m,300.0,1.8,301.8,238.57
+200 m simulation + MF-ResHydroNet,200 m,55.0,1.8,56.8,1267.61

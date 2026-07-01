@@ -1,0 +1,4 @@
+hydrological_condition,yangtze_q_m3s,dongting_q_m3s,downstream_level_m,mesh_resolutions_used,fidelity_definition
+Low-flow condition,7580.0,2000.0,19.316,"20, 30, 40, 50, 100, and 200 m","High fidelity: 20 m; medium fidelity: 30, 40, and 50 m; low fidelity: 100 and 200 m"
+Medium-flow condition,18700.0,15400.0,28.818,"20, 30, 40, 50, 100, and 200 m","High fidelity: 20 m; medium fidelity: 30, 40, and 50 m; low fidelity: 100 and 200 m"
+Flood-flow condition,31100.0,24800.0,32.99,"20, 30, 40, 50, 100, and 200 m","High fidelity: 20 m; medium fidelity: 30, 40, and 50 m; low fidelity: 100 and 200 m"

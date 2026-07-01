@@ -1,0 +1,5 @@
+dataset_subset,total_sample_points,spatial_points,paired_learning_samples,training_paired_samples,validation_paired_samples,test_paired_samples
+Low-flow,606,101,505,355,75,75
+Medium-flow,606,101,505,355,75,75
+Flood-flow,606,101,505,355,75,75
+All conditions,1818,303,1515,1065,225,225

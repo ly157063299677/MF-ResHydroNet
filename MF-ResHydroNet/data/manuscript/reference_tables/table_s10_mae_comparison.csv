@@ -1,0 +1,11 @@
+category,method,water_level_mae,velocity_mae,transverse_velocity_mae,tke_stat_mae,mean_mae
+No-learning baseline,Raw lower-fidelity CFD,0.041,0.046,0.039,0.018,0.036
+Classical regression,Linear regression,0.056,0.062,0.051,0.024,0.048
+Kernel-based surrogate,SVR (RBF kernel),0.044,0.049,0.042,0.02,0.039
+Probabilistic surrogate,GPR / Kriging,0.042,0.047,0.04,0.019,0.037
+Ensemble learning,Random forest,0.036,0.041,0.035,0.016,0.032
+Ensemble learning,XGBoost,0.03,0.035,0.029,0.014,0.027
+Ensemble learning,LightGBM,0.031,0.036,0.03,0.014,0.028
+Neural network,Standard MLP,0.028,0.033,0.027,0.013,0.025
+Multi-fidelity baseline,Direct multi-fidelity MLP,0.024,0.029,0.023,0.011,0.022
+Proposed method,MF-ResHydroNet,0.018,0.022,0.017,0.008,0.016

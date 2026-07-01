@@ -1,0 +1,6 @@
+testing_scenario,wl_rmse,velocity_rmse,transverse_velocity_rmse,tke_stat_rmse,mean_r2
+Random split,0.028,0.034,0.027,0.012,0.976
+Leave-low-flow-out,0.043,0.053,0.041,0.018,0.94
+Leave-medium-flow-out,0.039,0.048,0.037,0.016,0.95
+Leave-flood-flow-out,0.057,0.066,0.052,0.024,0.911
+Spatial extrapolation,0.049,0.06,0.047,0.021,0.925
